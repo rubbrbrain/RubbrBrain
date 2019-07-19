@@ -1,16 +1,69 @@
+html, body{
+	font-family: "Arial Black"; 
+	margin: 0;
+/*header*/
+}
 header{
-	background color: black;  
+	background-color: #54ED96;  
 	padding: 40px;
 	text-align: center;
+
+	
 }
 
 h1{
 	font-size: 90px;
-	color: white;
+	color:  white;
 }
 
 header img{
-	border-radius: 150px;
+	border-radius: 174px;
+	width: 300px
+	border: 24px solid #CC0000;
+
+/*main body*/
+
+}
+
+.content{
+	max-width: 100%;
+	margin: 0 auto; 
+	padding: 0 20px; 
+	background-color: #54ED96; 
+	color: white;
+	
+}
+
+p.caption{
+	font-size: 16px;
+	color: pink;
+	font-style: italic;
+}
+
+ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+/*footer*/
+
+footer{
+	padding: 40px 20px;
+	background-color: pink;
+	margin: 20px
+	max-width 100%;
+	text-align: center;
+}
+
+ul{
+	
+}
+
+footer ul li{
+	display: inline-block;
+	margin: 0 5px;
+
+
 }
 /*<header>
 		<img src="img/profile.jpg">
